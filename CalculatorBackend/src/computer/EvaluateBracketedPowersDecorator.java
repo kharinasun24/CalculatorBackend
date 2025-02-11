@@ -10,6 +10,7 @@ public class EvaluateBracketedPowersDecorator implements IfcExpressionProcessor 
         this.next = next;
     }
 
+    
     @Override
     public String process(String expression) {
         expression = Main.evaluateBracketedPowers(expression);

@@ -37,7 +37,6 @@ import ifc.IfcMathExpression;
 
 public class Main {
 
-	
     public static String doChunking(String str) {
         while (str.contains("(")) {
             int openIndex = -1;

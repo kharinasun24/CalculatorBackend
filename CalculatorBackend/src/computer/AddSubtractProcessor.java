@@ -5,7 +5,8 @@ import java.util.Arrays;
 import ifc.IfcMathExpression;
 
 public class AddSubtractProcessor implements IfcMathExpression {
-    private final IfcMathExpression decoratedExpression;
+
+	private final IfcMathExpression decoratedExpression;
 
     public AddSubtractProcessor(IfcMathExpression decoratedExpression) {
         this.decoratedExpression = decoratedExpression;

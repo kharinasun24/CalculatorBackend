@@ -13,8 +13,11 @@ public class ComputeDecorator implements IfcExpressionProcessor {
     	Result result = Main.splitExpression(expression);
         
         if (!result.middle.isEmpty()) {
+        	
             String middle = Main.doChunking(result.middle);
+        
             return Main.compute(result.left + Main.compute(middle) + result.right);
+        
         } else {
             return Main.compute(result.left);
         }

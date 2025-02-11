@@ -32,8 +32,7 @@ public class TestCore {
 		String result = Main.init("1--2");
 		
 	    assertEquals("3.0", result);
-
-		
+	
 	}
 	
 	

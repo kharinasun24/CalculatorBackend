@@ -23,7 +23,6 @@ public class MultiplyDivideProcessor implements IfcMathExpression {
         numbers = Arrays.stream(numbers)
                 .filter(s -> !s.isEmpty()) // Entfernt leere Strings
                 .toArray(String[]::new);
-
         
         String[] operators = term.replaceAll("[0-9.]", "").split("");
 

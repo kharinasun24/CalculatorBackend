@@ -1,7 +1,7 @@
 package auxiliary;
 
-
 public class Result {
+	
     public String left;
 	public String middle;
 	public String right;

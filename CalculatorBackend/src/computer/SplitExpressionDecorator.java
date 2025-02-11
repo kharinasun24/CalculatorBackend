@@ -7,7 +7,6 @@ import ifc.IfcExpressionProcessor;
 class SplitExpressionDecorator implements IfcExpressionProcessor {
     @SuppressWarnings("unused")
 	private final IfcExpressionProcessor next;
-
     
     public SplitExpressionDecorator(IfcExpressionProcessor next) {
         this.next = next;
